@@ -232,7 +232,6 @@ main {
     color: black;
 }
 
-/* RESPONSIVE BREAKPOINTS */
 @media (max-width: 1200px) {
     .video {
         flex: 1 1 calc(33.33% - 20px); /* 3 per row */
