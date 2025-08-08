@@ -162,7 +162,7 @@ main {
     overflow-y: auto;
 }
 
-/* VIDEO GRID */
+
 .video-container {
     display: flex;
     flex-wrap: wrap;
@@ -170,7 +170,7 @@ main {
 }
 
 .video {
-    flex: 1 1 calc(25% - 20px); /* 4 per row */
+    flex: 1 1 calc(25% - 20px); 
     max-width: calc(25% - 20px);
     cursor: pointer;
 }
@@ -234,21 +234,21 @@ main {
 
 @media (max-width: 1200px) {
     .video {
-        flex: 1 1 calc(33.33% - 20px); /* 3 per row */
+        flex: 1 1 calc(33.33% - 20px);
         max-width: calc(33.33% - 20px);
     }
 }
 
 @media (max-width: 900px) {
     .video {
-        flex: 1 1 calc(50% - 20px); /* 2 per row */
+        flex: 1 1 calc(50% - 20px); 
         max-width: calc(50% - 20px);
     }
 }
 
 @media (max-width: 600px) {
     .video {
-        flex: 1 1 100%; /* 1 per row */
+        flex: 1 1 100%; 
         max-width: 100%;
     }
 }
